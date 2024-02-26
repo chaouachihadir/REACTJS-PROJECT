@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import {
   Container,
   Navbar,
@@ -37,89 +37,65 @@ function App() {
 
         <Container>
           <h1 className="animated-title">Welcome ! </h1>
-        
 
           <Row>
             <Col>
               <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="" 
-                  className="mx-auto d-block"
-                />
+                <Card.Img variant="top" src="" className="mx-auto d-block" />
                 <div className="img-container">
-
-                   <img src="Mars.jpg" alt="img" />
-
-
-
+                  <img src="Mars.jpg" alt="img" />
                 </div>
-               
+
                 <Card.Body>
                   <Card.Title>Mars</Card.Title>
                   <Card.Text>
-                  Mars est la quatrième planète du Système solaire par ordre croissant de la distance au Soleil et la deuxième par ordre croissant de la taille et de la masse.
+                    Mars est la quatrième planète du Système solaire par ordre
+                    croissant de la distance au Soleil et la deuxième par ordre
+                    croissant de la taille et de la masse.
                   </Card.Text>
                   <Button variant="primary">Explore mars</Button>{" "}
-                  
                 </Card.Body>
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="" 
-                  className="mx-auto d-block"
-                />
+              <Card style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="" className="mx-auto d-block" />
                 <div className="img-container">
-
-                   <img src="Mars.jpg" alt="img" />
-
-
-
+                  <img src="lune.jpg" alt="img" />
                 </div>
-               
+
                 <Card.Body>
                   <Card.Title>Lune</Card.Title>
                   <Card.Text>
-                    La Lune, ou Terre I, est l'unique satellite naturel permanent de la planète Terre. Il s'agit du cinquième plus grand satellite naturel du Système solaire.
+                    La Lune, ou Terre I, est l'unique satellite naturel
+                    permanent de la planète Terre. Il s'agit du cinquième plus
+                    grand satellite naturel du Système solaire.
                   </Card.Text>
                   <Button variant="primary">Explore Lune</Button>{" "}
-                  
                 </Card.Body>
               </Card>
             </Col>
             <Col>
-             <Card style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="" 
-                  className="mx-auto d-block"
-                />
+              <Card style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="" className="mx-auto d-block" />
                 <div className="img-container">
-
-                   <img src="Mars.jpg" alt="img" />
-
-
-
+                  <img src="uranus.jpg" alt="img" />
                 </div>
                 <Card.Body>
                   <Card.Title>Uranus</Card.Title>
                   <Card.Text>
-                  Uranus est la 7e planète en partant du Soleil, et la 3e plus grande du Système solaire
+                    Uranus est la 7e planète en partant du Soleil, et la 3e plus
+                    grande du Système solaire
                   </Card.Text>
                   <Button variant="primary">Explore uranus</Button>{" "}
-                
                 </Card.Body>
               </Card>
             </Col>
           </Row>
         </Container>
       </div>
-    
     </>
   );
 }
 
-export default App; 
+export default App;
